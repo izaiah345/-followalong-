@@ -22,5 +22,6 @@ class Main {
    boolean permissionSlip = scan.nextBoolean(); 
 
    Student s4 = new Student(name, grade, aveGrade, permissionSlip);
+   
   }
 }
