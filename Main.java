@@ -9,6 +9,12 @@ class Main {
     s1.fieldTrip();
     s2.fieldTrip();
     s3.fieldTrip();
+     
+     Student g1 = new Student("Izaiah", 10, 95.0, true);
+     Student g2 = new Student("Lilly", 9, 99.0, false);
+    
+    g1. Dance();
+    g2. Dance();
 
    Scanner scan = new Scanner(System.in);
 
@@ -22,6 +28,6 @@ class Main {
    boolean permissionSlip = scan.nextBoolean(); 
 
    Student s4 = new Student(name, grade, aveGrade, permissionSlip);
-   
+
   }
 }

@@ -21,5 +21,14 @@ public class Student{
    }else{
      System.out.println("Sorry, maybe next year.");
    }
+ }
+ public void Dance(){
+  if (gradeYear >= 9 && aveGrade > 70.0 && permissionSlip) 
+{
+     System.out.println("Yay you get to go to the dance, " + name);
+   }else{
+     System.out.println("Sorry, maybe next year."); 
+ }
+   }
+
  } 
-} 
